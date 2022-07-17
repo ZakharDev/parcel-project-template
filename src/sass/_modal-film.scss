@@ -1,0 +1,65 @@
+.backdrop-film {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #000000;
+    // opacity: 0.25;
+    opacity: 0.9;
+}
+
+.backdrop-film.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-film {
+    min-width: 280px;
+    min-height: 240px;
+    background-color: #FFFFFF;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.modal-film__image {
+    width: 240px;
+    height: 357px;
+}
+
+.modal-film__title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.15;
+
+    color: #000000;
+}
+
+.modal-film__list-info {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #8C8C8C;
+}
+
+.modal-film__list-info-backend {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #000000;
+}
+
+.modal-film__title-about {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+}
